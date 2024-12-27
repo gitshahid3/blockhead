@@ -12,10 +12,10 @@ createRoot(document.getElementById('root')).render(
           name: "Blockhead",
           url: window.location.href,
         },
-        infuraAPIKey: process.env.INFURA_API_KEY
+        infuraAPIKey: ""
       }}
     >
       <App />
     </MetaMaskProvider>
-  </StrictMode>,
+  </StrictMode>
 )
